@@ -11,6 +11,7 @@ Steps to deploy terraform:
 - cd lambdas/get_parking_lots
 - pip3 install -r requirements.txt --target package
 - cd package;zip -r ../get_parking_lots.zip .
+- cd ..
 - zip -r get_parking_lots.zip get_parking_lots.py
 - Repeat the steps above for update_parking_lots and remember to replace all filenames to update_parking_lots.zip  and update_parking_lots.py
 - Go back to the root directory.
